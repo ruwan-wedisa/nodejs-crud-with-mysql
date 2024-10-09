@@ -109,7 +109,7 @@ app.listen('3000', function(){
         host: '127.0.0.1',
         user:'root',
         password:'root',
-        database:'studentms2'
+        database:'studentms'
     });
 
     con.connect(function(err){
@@ -119,5 +119,5 @@ app.listen('3000', function(){
             console.log("Database is connected...!");  
         }
     });
-    console.log('Server is running on port 5000...');
+    console.log('Server is running on port 50001...');
 });
